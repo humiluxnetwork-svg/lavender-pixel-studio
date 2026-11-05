@@ -14,6 +14,70 @@ export const services = [
   { slug: "conversion-optimization", icon: "BarChart3", title: "Analytics & CRO", short: "Measure everything and grow your conversion rate.", body: "Tracking setup, A/B testing and UX research to get more sales from the traffic you already have.", features: ["Analytics setup", "A/B testing", "Heatmaps & UX research", "Monthly reporting"] },
 ] as const;
 
+export const serviceCategories = [
+  {
+    tag: "A",
+    title: "E-commerce Design & Development",
+    intro: "We build online stores that look great and make it easy for people to buy.",
+    items: [
+      { title: "Shopify store design and development", desc: "We set up and design your shop on Shopify — the world's most popular online store builder — so you can start selling fast without touching any code." },
+      { title: "WooCommerce development", desc: "We build your store on WooCommerce, which runs inside WordPress — a great fit if you already have a WordPress site or want full control of your own data." },
+      { title: "Custom e-commerce websites", desc: "For stores with special needs, we build a store from scratch that is designed exactly around how you sell — nothing generic, nothing off the shelf." },
+      { title: "E-commerce redesign", desc: "If your current store looks dated or isn't selling, we give it a fresh look and a smoother buying experience — without losing your products, customers or search rankings." },
+      { title: "Product page design", desc: "We design the page people see before buying, so it shows your product clearly, answers their questions and convinces them to press 'Add to cart'." },
+      { title: "Conversion rate optimization (CRO)", desc: "We watch how visitors move through your store, find the exact spot where they give up, and make changes so more of them actually buy." },
+      { title: "Payment and checkout integration", desc: "We connect every way your customers want to pay — cards, PayPal, Apple Pay, mobile money — and make checkout quick and worry-free." },
+      { title: "Website maintenance and support", desc: "We keep your store updated, backed up and running smoothly, and fix problems fast so you never lose a sale to a broken page." },
+    ],
+  },
+  {
+    tag: "B",
+    title: "Digital Marketing",
+    intro: "We bring the right people to your store — and turn them into buyers.",
+    items: [
+      { title: "Search engine optimization (SEO)", desc: "We help your website show up on Google when people search for what you sell — so customers find you on their own, without you paying for every click." },
+      { title: "Google Ads and PPC campaigns", desc: "We create ads that appear at the top of Google the moment someone searches. You only pay when someone clicks, which makes it great for fast sales." },
+      { title: "Meta Ads (Facebook and Instagram)", desc: "We run ads on Facebook and Instagram that put your products in front of the right people while they scroll — with pictures and videos that make them stop and look." },
+      { title: "Social media marketing", desc: "We manage your social pages for you — planning what to post, growing your followers and turning fans into paying customers." },
+      { title: "Email marketing", desc: "We send the right message to the right customer at the right time — welcome notes, cart reminders, special offers — so people come back and buy again." },
+      { title: "Content marketing", desc: "We write helpful articles, guides and posts that attract the right people, answer their questions and build trust before they buy." },
+      { title: "Influencer marketing", desc: "We connect you with trusted creators whose followers match your customers, and manage the whole collaboration from idea to results." },
+      { title: "Marketing automation", desc: "We set up tools that do your repetitive marketing work for you — like sending emails and following up with leads — automatically, even while you sleep." },
+      { title: "Lead generation", desc: "We find people who are genuinely interested in what you sell, collect their contact details and hand you a list you can follow up with and close." },
+    ],
+  },
+  {
+    tag: "C",
+    title: "Branding & Creative Design",
+    intro: "We give your business a look and a voice people recognize and remember.",
+    items: [
+      { title: "Brand identity development", desc: "We create the complete look and feel of your brand — colors, fonts, logo, photography style — so people recognize you instantly, everywhere." },
+      { title: "Logo design", desc: "We design a memorable logo that tells people who you are and what you stand for in a single glance." },
+      { title: "Brand strategy", desc: "We help you decide who your brand is for, what it stands for and how to talk about it — the plan behind every design choice that follows." },
+      { title: "Graphic design", desc: "We design all the everyday visuals your business needs: flyers, banners, business cards, pitch decks and more — all matching your brand." },
+      { title: "Social media creatives", desc: "We design eye-catching posts, stories and reels graphics that stop the scroll and make people pay attention to your brand." },
+      { title: "Marketing campaign design", desc: "We design the visuals for your whole campaign — from the first ad click to the checkout page — so everything looks consistent and convincing." },
+      { title: "Packaging design", desc: "We design your product packaging so it stands out on the shelf, feels good in the customer's hands and gets chosen over competitors." },
+      { title: "Brand guidelines", desc: "We write a simple rulebook for your brand — exactly how your logo, colors and fonts may be used — so everything you ever publish looks consistent." },
+    ],
+  },
+  {
+    tag: "D",
+    title: "Website Design & Development",
+    intro: "We build fast, beautiful websites that work perfectly on every device.",
+    items: [
+      { title: "Corporate website design", desc: "We design polished, professional websites for companies — the kind that builds trust with clients, partners and investors from the first second." },
+      { title: "Landing page design", desc: "We design single pages built around one clear goal — getting a visitor to sign up, call or buy — with nothing there to distract them." },
+      { title: "UI/UX design", desc: "We design how your website or app looks and how easy it is to use, so visitors enjoy being there and get things done without any confusion." },
+      { title: "Website development", desc: "We turn designs into a real, working website — fast, secure, and easy for you to update without needing a developer every time." },
+      { title: "Responsive web design", desc: "We make sure your website looks and works perfectly on every screen — phone, tablet and computer — because most visitors will arrive on a phone." },
+      { title: "Web application development", desc: "We build online tools beyond normal websites — booking systems, customer portals, dashboards and member areas — tailored to how you work." },
+      { title: "Website speed optimization", desc: "We make slow websites load in a blink, because every extra second of waiting loses visitors — and every lost visitor is a lost sale." },
+      { title: "Website maintenance", desc: "We keep your website updated, secure and problem-free in the background, so you can focus on running your business." },
+    ],
+  },
+] as const;
+
 export const projects = [
   { slug: "lumiere-fashion", client: "Lumière", category: "Ecommerce Design", image: fashion, desc: "A full Shopify redesign for a premium womenswear label.", result: "+182% online revenue", challenge: "An outdated store with a slow, confusing checkout was losing mobile shoppers.", solution: "We rebuilt the store mobile-first, simplified navigation and launched a one-page checkout.", metrics: [["182%", "Revenue growth"], ["3.9%", "Conversion rate"], ["-48%", "Cart abandonment"]] },
   { slug: "lumea-skincare", client: "Luméa Skincare", category: "Branding & Store", image: beauty, desc: "Brand identity and DTC store for a clean skincare startup.", result: "$1.2M first-year sales", challenge: "A new brand needed to stand out in a crowded beauty market.", solution: "We created a calm, natural identity and a storytelling-led store with subscription options.", metrics: [["$1.2M", "Year-one sales"], ["38%", "Repeat customers"], ["4.6x", "Ad ROAS"]] },
