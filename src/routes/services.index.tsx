@@ -5,9 +5,9 @@ import { services, serviceCategories } from "@/lib/site-data";
 export const Route = createFileRoute("/services/")({
   head: () => ({
     meta: [
-      { title: "Services — Ecommerce Design & Digital Marketing | UpScale" },
+      { title: "Services — Ecommerce Design & Digital Marketing | Humilux Network" },
       { name: "description", content: "E-commerce stores, digital marketing, branding and website design — every service explained simply." },
-      { property: "og:title", content: "UpScale Services" },
+      { property: "og:title", content: "Humilux Network Services" },
       { property: "og:description", content: "E-commerce stores, digital marketing, branding and website design — every service explained simply." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

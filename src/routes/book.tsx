@@ -6,10 +6,10 @@ import { services } from "@/lib/site-data";
 export const Route = createFileRoute("/book")({
   head: () => ({
     meta: [
-      { title: "Book a Free Consultation — UpScale" },
+      { title: "Book a Free Consultation — Humilux Network" },
       { name: "description", content: "Book a free 30-minute strategy call with our ecommerce and marketing experts." },
       { property: "og:title", content: "Book a Free Consultation" },
-      { property: "og:description", content: "Free 30-minute strategy call with UpScale." },
+      { property: "og:description", content: "Free 30-minute strategy call with Humilux Network." },
     ],
   }),
   component: Book,

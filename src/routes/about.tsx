@@ -5,10 +5,10 @@ import officeStanding from "@/assets/office-standing.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — UpScale Digital Agency" },
-      { name: "description", content: "Meet the team, mission and approach behind UpScale's ecommerce design and digital marketing." },
-      { property: "og:title", content: "About UpScale" },
-      { property: "og:description", content: "Meet the team, mission and approach behind UpScale." },
+      { title: "About Us — Humilux Network Digital Agency" },
+      { name: "description", content: "Meet the team, mission and approach behind Humilux Network's ecommerce design and digital marketing." },
+      { property: "og:title", content: "About Humilux Network" },
+      { property: "og:description", content: "Meet the team, mission and approach behind Humilux Network." },
     ],
   }),
   component: About,

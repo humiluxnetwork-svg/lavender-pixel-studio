@@ -4,9 +4,9 @@ import { SiteLayout, PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/careers")({
   head: () => ({
     meta: [
-      { title: "Careers — Join UpScale" },
+      { title: "Careers — Join Humilux Network" },
       { name: "description", content: "Join a team of designers and marketers helping brands grow online." },
-      { property: "og:title", content: "Careers at UpScale" },
+      { property: "og:title", content: "Careers at Humilux Network" },
       { property: "og:description", content: "Join a team of designers and marketers helping brands grow online." },
     ],
   }),

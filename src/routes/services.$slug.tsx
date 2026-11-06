@@ -12,12 +12,12 @@ export const Route = createFileRoute("/services/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.title} — UpScale` },
+          { title: `${loaderData.title} — Humilux Network` },
           { name: "description", content: loaderData.short },
-          { property: "og:title", content: `${loaderData.title} — UpScale` },
+          { property: "og:title", content: `${loaderData.title} — Humilux Network` },
           { property: "og:description", content: loaderData.short },
         ]
-      : [{ title: "Service not found — UpScale" }, { name: "robots", content: "noindex" }],
+      : [{ title: "Service not found — Humilux Network" }, { name: "robots", content: "noindex" }],
   }),
   component: Service,
 });

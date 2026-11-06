@@ -11,13 +11,13 @@ export const Route = createFileRoute("/work/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.client} Case Study — UpScale` },
+          { title: `${loaderData.client} Case Study — Humilux Network` },
           { name: "description", content: loaderData.desc },
           { property: "og:title", content: `${loaderData.client} Case Study` },
           { property: "og:description", content: loaderData.desc },
           { property: "og:type", content: "article" },
         ]
-      : [{ title: "Project not found — UpScale" }, { name: "robots", content: "noindex" }],
+      : [{ title: "Project not found — Humilux Network" }, { name: "robots", content: "noindex" }],
   }),
   component: Project,
 });

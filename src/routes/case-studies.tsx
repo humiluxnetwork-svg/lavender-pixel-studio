@@ -6,9 +6,9 @@ import { projects } from "@/lib/site-data";
 export const Route = createFileRoute("/case-studies")({
   head: () => ({
     meta: [
-      { title: "Case Studies — Proven Results | UpScale" },
+      { title: "Case Studies — Proven Results | Humilux Network" },
       { name: "description", content: "In-depth case studies showing how we grew revenue, leads and conversions for our clients." },
-      { property: "og:title", content: "UpScale Case Studies" },
+      { property: "og:title", content: "Humilux Network Case Studies" },
       { property: "og:description", content: "How we grew revenue, leads and conversions for our clients." },
     ],
   }),

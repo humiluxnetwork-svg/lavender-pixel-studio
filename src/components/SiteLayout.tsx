@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import * as Icons from "lucide-react";
+import logoAsset from "@/assets/humilux-logo.png.asset.json";
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ChevronDown, Menu, X, ArrowUpRight } from "lucide-react";
 import { services, projects, posts } from "@/lib/site-data";
 
@@ -29,8 +30,8 @@ export function Icon({ name, className }: { name: string; className?: string }) 
 export function Logo() {
   return (
     <Link to="/" className="flex items-center gap-2 text-2xl font-extrabold text-ink-foreground">
-      <span className="h-8 w-8 rounded-full border-4 border-secondary" />
-      UpScale
+      <img src={logoAsset.url} alt="Humilux Network logo" className="h-10 w-10 rounded-full" />
+      <span className="leading-none">HUMILUX <span className="text-secondary">NETWORK</span></span>
     </Link>
   );
 }
@@ -42,11 +43,10 @@ export function SiteHeader() {
       <div className="border-b border-ink-card">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 text-xs">
           <div className="flex flex-wrap gap-5">
-            <span className="flex items-center gap-1.5"><Mail className="h-3.5 w-3.5 text-secondary" />info@upscale.com</span>
-            <span className="hidden items-center gap-1.5 sm:flex"><Phone className="h-3.5 w-3.5 text-secondary" />+1 (123) 456-7890</span>
-            <span className="hidden items-center gap-1.5 md:flex"><MapPin className="h-3.5 w-3.5 text-secondary" />123 Street New York City, USA</span>
+            <a href="mailto:humiluxnetwork@gmail.com" className="flex items-center gap-1.5 hover:text-secondary"><Mail className="h-3.5 w-3.5 text-secondary" />humiluxnetwork@gmail.com</a>
+            <a href="tel:+2349120794635" className="hidden items-center gap-1.5 hover:text-secondary sm:flex"><Phone className="h-3.5 w-3.5 text-secondary" />+234 912 079 4635</a>
           </div>
-          <div className="flex gap-3">{[Facebook, Twitter, Instagram, Linkedin].map((I, i) => <I key={i} className="h-4 w-4" />)}</div>
+          <a href="https://www.instagram.com/humilux.digital/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 hover:text-secondary"><Instagram className="h-4 w-4" /><span className="hidden sm:inline">@humilux.digital</span></a>
         </div>
       </div>
       <div className="border-b border-ink-card">
@@ -89,11 +89,10 @@ export function SiteFooter() {
           <Logo />
           <p className="mt-4 max-w-sm text-sm">A digital marketing and ecommerce website design agency helping brands grow online with beautiful stores and campaigns that convert.</p>
           <div className="mt-5 space-y-2 text-sm">
-            <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-secondary" />info@upscale.com</p>
-            <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-secondary" />+1 (123) 456-7890</p>
-            <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-secondary" />123 Street New York City, USA</p>
+            <a href="mailto:humiluxnetwork@gmail.com" className="flex items-center gap-2 hover:text-secondary"><Mail className="h-4 w-4 text-secondary" />humiluxnetwork@gmail.com</a>
+            <a href="tel:+2349120794635" className="flex items-center gap-2 hover:text-secondary"><Phone className="h-4 w-4 text-secondary" />+234 912 079 4635</a>
           </div>
-          <div className="mt-5 flex gap-3">{[Facebook, Twitter, Instagram, Linkedin].map((I, i) => <span key={i} className="grid h-9 w-9 place-items-center rounded-full bg-ink-card text-ink-foreground hover:bg-secondary"><I className="h-4 w-4" /></span>)}</div>
+          <div className="mt-5 flex gap-3"><a href="https://www.instagram.com/humilux.digital/" target="_blank" rel="noreferrer" aria-label="Instagram" className="grid h-9 w-9 place-items-center rounded-full bg-ink-card text-ink-foreground hover:bg-secondary"><Instagram className="h-4 w-4" /></a></div>
         </div>
         <div>
           <h4 className="font-bold text-ink-foreground">Quick links</h4>
@@ -116,7 +115,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-ink-card">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-6 text-sm md:flex-row md:justify-between">
-          <p>© {new Date().getFullYear()} UpScale. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Humilux Network. All rights reserved.</p>
           <div className="flex gap-5"><Link to="/privacy" className="hover:text-secondary">Privacy Policy</Link><Link to="/terms" className="hover:text-secondary">Terms & Conditions</Link></div>
         </div>
       </div>
@@ -209,7 +208,7 @@ export function FinalCTA() {
           <div className="mt-8 flex -space-x-2">
             {["SL", "DO", "MC", "AK", "JR"].map((x, i) => <span key={x} className={`grid h-10 w-10 place-items-center rounded-full border-2 border-card text-xs font-bold text-primary-foreground ${i % 2 ? "bg-secondary" : "bg-primary"}`}>{x}</span>)}
           </div>
-          <p className="mt-3 text-sm text-muted-foreground">Brands growing with UpScale worldwide</p>
+          <p className="mt-3 text-sm text-muted-foreground">Brands growing with Humilux Network worldwide</p>
         </div>
       </div>
     </section>

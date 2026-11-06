@@ -4,9 +4,9 @@ import { SiteLayout, PageHero, FinalCTA } from "@/components/SiteLayout";
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — UpScale" },
+      { title: "FAQ — Humilux Network" },
       { name: "description", content: "Answers to common questions about our ecommerce design and marketing services." },
-      { property: "og:title", content: "UpScale FAQ" },
+      { property: "og:title", content: "Humilux Network FAQ" },
       { property: "og:description", content: "Common questions about our services, pricing and process." },
     ],
   }),
