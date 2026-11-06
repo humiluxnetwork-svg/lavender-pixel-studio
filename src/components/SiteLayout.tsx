@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import * as Icons from "lucide-react";
 import logoAsset from "@/assets/humilux-logo.png.asset.json";
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ChevronDown, Menu, X, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, Instagram, ChevronDown, Menu, X, ArrowUpRight } from "lucide-react";
 import { services, projects, posts } from "@/lib/site-data";
 
 const nav = [
