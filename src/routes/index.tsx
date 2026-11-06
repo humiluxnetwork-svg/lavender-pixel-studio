@@ -10,9 +10,9 @@ import designers from "@/assets/designers.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "UpScale — Digital Marketing & Ecommerce Design Agency" },
+      { title: "Humilux Network — Digital Marketing & Ecommerce Design Agency" },
       { name: "description", content: "We design high-converting ecommerce websites and run digital marketing that grows revenue. Book a free consultation." },
-      { property: "og:title", content: "UpScale — Digital Marketing & Ecommerce Design Agency" },
+      { property: "og:title", content: "Humilux Network — Digital Marketing & Ecommerce Design Agency" },
       { property: "og:description", content: "Ecommerce website design and digital marketing that drives measurable growth." },
     ],
   }),
@@ -184,7 +184,7 @@ function Index() {
         <div className="relative mt-6 overflow-hidden rounded-3xl">
           <img src={teamTable} alt="Video testimonial" loading="lazy" width={1024} height={640} className="h-72 w-full object-cover" />
           <div className="absolute inset-0 flex items-center justify-center bg-ink/60 text-ink-foreground">
-            <div className="text-center"><PlayCircle className="mx-auto h-16 w-16 text-secondary" /><p className="mt-3 font-bold">Watch: how EarthBrew scaled with UpScale</p></div>
+            <div className="text-center"><PlayCircle className="mx-auto h-16 w-16 text-secondary" /><p className="mt-3 font-bold">Watch: how EarthBrew scaled with Humilux Network</p></div>
           </div>
         </div>
       </section>

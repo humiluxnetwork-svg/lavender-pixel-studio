@@ -5,9 +5,9 @@ import { posts } from "@/lib/site-data";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog & Insights — UpScale" },
+      { title: "Blog & Insights — Humilux Network" },
       { name: "description", content: "Digital marketing tips, ecommerce growth strategies, SEO guides and design trends." },
-      { property: "og:title", content: "UpScale Blog & Insights" },
+      { property: "og:title", content: "Humilux Network Blog & Insights" },
       { property: "og:description", content: "Marketing tips, ecommerce growth, SEO and design trends." },
     ],
   }),

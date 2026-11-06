@@ -5,9 +5,9 @@ import { projects } from "@/lib/site-data";
 export const Route = createFileRoute("/work/")({
   head: () => ({
     meta: [
-      { title: "Our Work — Portfolio | UpScale" },
+      { title: "Our Work — Portfolio | Humilux Network" },
       { name: "description", content: "Ecommerce websites, brands and campaigns we've built for growing businesses." },
-      { property: "og:title", content: "UpScale Portfolio" },
+      { property: "og:title", content: "Humilux Network Portfolio" },
       { property: "og:description", content: "Ecommerce websites, brands and campaigns we've built." },
     ],
   }),

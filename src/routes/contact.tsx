@@ -5,10 +5,10 @@ import { SiteLayout, PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact UpScale — Start Your Project" },
+      { title: "Contact Humilux Network — Start Your Project" },
       { name: "description", content: "Tell us about your store or campaign and we'll get back within one business day." },
-      { property: "og:title", content: "Contact UpScale" },
-      { property: "og:description", content: "Start your ecommerce or marketing project with UpScale." },
+      { property: "og:title", content: "Contact Humilux Network" },
+      { property: "og:description", content: "Start your ecommerce or marketing project with Humilux Network." },
     ],
   }),
   component: Contact,

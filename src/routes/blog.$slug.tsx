@@ -11,13 +11,13 @@ export const Route = createFileRoute("/blog/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.title} — UpScale Blog` },
+          { title: `${loaderData.title} — Humilux Network Blog` },
           { name: "description", content: loaderData.excerpt },
           { property: "og:title", content: loaderData.title },
           { property: "og:description", content: loaderData.excerpt },
           { property: "og:type", content: "article" },
         ]
-      : [{ title: "Article not found — UpScale" }, { name: "robots", content: "noindex" }],
+      : [{ title: "Article not found — Humilux Network" }, { name: "robots", content: "noindex" }],
   }),
   component: Post,
 });

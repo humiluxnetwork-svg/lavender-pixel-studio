@@ -5,9 +5,9 @@ import { SiteLayout, PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/pricing")({
   head: () => ({
     meta: [
-      { title: "Pricing & Packages — UpScale" },
+      { title: "Pricing & Packages — Humilux Network" },
       { name: "description", content: "Transparent packages for ecommerce website design and digital marketing." },
-      { property: "og:title", content: "UpScale Pricing & Packages" },
+      { property: "og:title", content: "Humilux Network Pricing & Packages" },
       { property: "og:description", content: "Transparent packages for ecommerce design and marketing." },
     ],
   }),
