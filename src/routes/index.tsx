@@ -52,7 +52,7 @@ function Index() {
                   <Link to="/book" className="inline-flex items-center gap-2 rounded-full bg-secondary px-6 py-3 font-bold text-secondary-foreground hover:opacity-90">Book a Free Consultation <ArrowUpRight className="h-4 w-4" /></Link>
                   <Link to="/work" className="inline-flex items-center rounded-full border border-ink-muted px-6 py-3 font-bold hover:border-secondary hover:text-secondary">Explore Our Work</Link>
                 </div>
-                <p className="mt-8 text-sm text-ink-muted">Trusted by 350+ brands · Shopify & Google Partner</p>
+                <p className="mt-8 text-sm text-ink-muted">Trusted by 45+ brands · Shopify & Google Partner</p>
               </div>
               <img src={blob} alt="Abstract glossy 3D shape" width={1024} height={1024} className="float-slow mx-auto w-full max-w-md" />
             </div>
@@ -60,8 +60,8 @@ function Index() {
               <img src={teamTable} alt="Team collaborating" width={1024} height={640} className="h-44 w-full rounded-2xl object-cover" />
               <div className="md:px-6">
                 <div className="flex justify-between text-sm"><span>Google Rating</span><span className="flex items-center gap-1"><Star className="h-4 w-4 fill-secondary text-secondary" />4.9</span></div>
-                <p className="mt-4 text-5xl font-bold">728,000 <span className="text-secondary">+</span></p>
-                <p className="mt-2 text-sm text-ink-muted">orders processed through stores we've built</p>
+                <p className="mt-4 text-5xl font-bold">50 <span className="text-secondary">+</span></p>
+                <p className="mt-2 text-sm text-ink-muted">5-star Google reviews from happy clients</p>
               </div>
               <div className="rounded-2xl border border-ink-card bg-ink-card/70 p-6">
                 <div className="flex items-center gap-3">
