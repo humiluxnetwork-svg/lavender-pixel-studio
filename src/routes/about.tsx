@@ -23,7 +23,7 @@ function About() {
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:grid-cols-2">
         <img src={officeStanding} alt="Our team" loading="lazy" width={768} height={960} className="h-[480px] w-full rounded-3xl object-cover" />
         <div className="space-y-6">
-          {[["Who we are", "For over 20 years we've helped businesses launch and scale online, combining beautiful design with performance marketing."], ["Our mission", "Make online growth simple, measurable and predictable for ambitious brands."], ["Our vision", "A world where every business, big or small, has a world-class digital presence."], ["Our approach", "We start with your customers, build a strategy around real data, then design, test and improve continuously."]].map(([h, p]) => (
+          {[["Who we are", "For over 3 years we've helped businesses launch and scale online, combining beautiful design with performance marketing."], ["Our mission", "Make online growth simple, measurable and predictable for ambitious brands."], ["Our vision", "A world where every business, big or small, has a world-class digital presence."], ["Our approach", "We start with your customers, build a strategy around real data, then design, test and improve continuously."]].map(([h, p]) => (
             <div key={h}><h3 className="text-xl font-bold text-primary">{h}</h3><p className="mt-1 text-muted-foreground">{p}</p></div>
           ))}
         </div>
