@@ -84,7 +84,7 @@ function Index() {
             {clients.map((c) => <span key={c} className="text-center text-xl font-extrabold text-primary/60">{c}</span>)}
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-3">
-            {[["350+", "Brands served"], ["1,200+", "Projects completed"], ["20+", "Years of experience"]].map(([n, l]) => (
+            {[["45+", "Brands served"], ["120+", "Projects completed"], ["3+", "Years of experience"]].map(([n, l]) => (
               <div key={l} className="rounded-2xl bg-card p-6 text-center"><p className="text-4xl font-extrabold text-primary">{n}</p><p className="mt-1 text-muted-foreground">{l}</p></div>
             ))}
           </div>
