@@ -4,6 +4,11 @@ import analytics from "@/assets/project-analytics.jpg";
 import coffee from "@/assets/project-coffee.jpg";
 import designers from "@/assets/designers.jpg";
 import teamTable from "@/assets/team-table.jpg";
+import officeStanding from "@/assets/office-standing.jpg";
+import jewelry from "@/assets/project-jewelry.jpg";
+import furniture from "@/assets/project-furniture.jpg";
+import fitness from "@/assets/project-fitness.jpg";
+import pets from "@/assets/project-pets.jpg";
 
 export const services = [
   { slug: "ecommerce-website-design", icon: "ShoppingCart", title: "Ecommerce Website Design", short: "High-converting online stores on Shopify, WooCommerce and custom builds.", body: "We design and build online stores that look stunning and sell. Every layout, product page and checkout step is crafted to reduce friction and lift conversion.", features: ["Custom store design", "Shopify & WooCommerce builds", "Product page optimization", "Fast, mobile-first checkout"] },
