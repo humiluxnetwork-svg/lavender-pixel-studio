@@ -107,7 +107,7 @@ function Index() {
             <div><Tag>Featured work</Tag><h2 className="mt-4 text-4xl font-bold md:text-5xl">Projects that moved the needle</h2></div>
             <Link to="/work" className="font-bold text-secondary">View portfolio →</Link>
           </div>
-          <div className="mt-10 grid gap-6 md:grid-cols-2">{projects.map((p) => <ProjectCard key={p.slug} p={p} />)}</div>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">{projects.slice(0, 4).map((p) => <ProjectCard key={p.slug} p={p} />)}</div>
         </div>
       </section>
 
