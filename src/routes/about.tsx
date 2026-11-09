@@ -14,7 +14,7 @@ export const Route = createFileRoute("/about")({
   component: About,
 });
 
-const team: [string, string][] = [["Ava Martinez", "Founder & CEO"], ["James Lee", "Head of Design"], ["Priya Shah", "Head of Marketing"], ["Noah Williams", "Lead Developer"]];
+const team: [string, string][] = [["Ajiki Demilade", "Founder & CEO"], ["Ozioma Peter", "Head of Design"], ["Priya Shah", "Head of Marketing"], ["Noah Williams", "Lead Developer"]];
 
 function About() {
   return (
