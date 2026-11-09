@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
 });
 
 const results = [
-  ["$48M+", "Revenue generated for clients"],
+  ["$68k+", "Revenue generated for clients"],
   ["+127%", "Average conversion improvement"],
   ["6.2x", "Average advertising ROI"],
   ["+315%", "Organic traffic growth"],
@@ -59,7 +59,7 @@ function Index() {
             <div className="mt-16 grid items-center gap-8 md:grid-cols-3">
               <img src={teamTable} alt="Team collaborating" width={1024} height={640} className="h-44 w-full rounded-2xl object-cover" />
               <div className="md:px-6">
-                <div className="flex justify-between text-sm"><span>Google Rating</span><span className="flex items-center gap-1"><Star className="h-4 w-4 fill-secondary text-secondary" />4.9</span></div>
+                <div className="flex justify-between text-sm"><span>Google Rating</span><span className="flex items-center gap-1"><Star className="h-4 w-4 fill-secondary text-secondary" />50+</span></div>
                 <p className="mt-4 text-5xl font-bold">50 <span className="text-secondary">+</span></p>
                 <p className="mt-2 text-sm text-ink-muted">5-star Google reviews from happy clients</p>
               </div>
